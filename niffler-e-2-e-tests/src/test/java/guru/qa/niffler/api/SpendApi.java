@@ -29,8 +29,8 @@ public interface SpendApi {
                                   @Query("to") Date to);
 
   @DELETE("/internal/spends/remove")
-  Call<Void> deleteSpends(@Query("username") String username,
-                          @Query("ids") String ids);
+  Call<Void> removeSpends(@Query("username") String username,
+                          @Query("ids") List<String> ids);
 
 
   @POST("/internal/categories/add")
