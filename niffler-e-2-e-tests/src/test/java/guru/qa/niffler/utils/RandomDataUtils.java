@@ -8,4 +8,8 @@ public class RandomDataUtils {
     public static String randomUsername() {
         return faker.name().username();
     }
+
+    public static String randomCategoryName() {
+        return faker.food().fruit();
+    }
 }
