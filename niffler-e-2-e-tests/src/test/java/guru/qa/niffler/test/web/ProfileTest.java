@@ -17,7 +17,6 @@ public class ProfileTest {
             categories = @Category(
                     archived = true
             )
-
     )
 
     @Test
