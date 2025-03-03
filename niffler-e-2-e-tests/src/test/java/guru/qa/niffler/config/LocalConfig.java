@@ -12,4 +12,8 @@ enum LocalConfig implements Config {
   public String spendUrl() {
     return "http://127.0.0.1:8093/";
   }
+
+  public String ghUrl(){
+    return "https://api.github.com/";
+  }
 }
