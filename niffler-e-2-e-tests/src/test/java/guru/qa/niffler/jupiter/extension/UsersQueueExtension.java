@@ -29,7 +29,7 @@ public class UsersQueueExtension implements BeforeTestExecutionCallback, AfterTe
     static {
         EMPTY_USERS.add(new StaticUser("Igor1", "1234", null, null, null));
         WITH_FRIEND_USERS.add(new StaticUser("Igor2", "1234", "Igor1", null, null));
-        WITH_INCOME_REQUEST_USERS.add(new StaticUser("Igor", "123", null, "Igor2", null));
+        WITH_INCOME_REQUEST_USERS.add(new StaticUser("Igor3", "12345", null, "Igor2", null));
         WITH_OUTCOME_REQUEST_USERS.add(new StaticUser("Igor", "123", null, null, "Igor2"));
     }
 

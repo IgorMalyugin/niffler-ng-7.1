@@ -13,13 +13,6 @@ public class FriendsPage {
     private final SelenideElement friendsTable = $(By.xpath("//p[text()='There are no users yet']"));
     private final SelenideElement requestsTable = $("#requests");
 
-    public FriendsPage clickFriends(){
-        return this;
-    }
-
-    public FriendsPage clickAllPeople(){
-        return this;
-    }
 
     public FriendsPage checkFriends(String username){
         $x("//p[text()='" + username + "']").shouldBe(visible);
